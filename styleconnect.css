@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-image: url(imgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+h1{
+    color: brown;
+    font-style: italic;
+    font-weight: bold;
+}
+input[type="submit"] {
+    font-size: .9em;
+    color: #000000;
+    background: #9a0f00;
+    outline: none;
+    border: 1px solid #451c00;
+    cursor: pointer;
+    padding: 0.9em;
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 2em 0;
+    letter-spacing: 4px;
+  }
+  input[type="submit"]:hover {
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+    transition: .5s all;
+    background: #f73d3d;
+  }
+  .navbar , navbar-expand-lg{
+    background-image: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));}
+    

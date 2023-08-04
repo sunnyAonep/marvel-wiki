@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-image: url(imgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+.contener{
+    background-color: #fff;
+    opacity: 80%;
+    margin-left: 10%;
+    height: 100vh;
+    width: 80vw;
+    display: grid;
+    grid-template-rows: 10% 20% 20% 20% 20% 10% ;
+    grid-template-columns: 15% 30% 40% 10%;
+    grid-template-areas: 
+    'headr headr  headr headr headr'
+    'sidebar main main main main'
+    'sidebar main  main main main'
+    'sidebar main main main main'
+    'sidebar main main main main'
+    'footr footr footr footr footr'
+    ;
+}
+.navbar , navbar-expand-lg{
+background-image: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));
+}
+.headr{
+grid-area: headr;
+display: flex;
+justify-content: space-evenly;
+border: 6px #000;
+border-style: none none double none;
+}
+.main{
+grid-area: main;
+display: flex;
+margin-left: 5%;
+margin-top: 1%;
+font-family: "Trirong", serif;
+font-size: large;
+flex-direction: column;
+overflow: scroll;
+}
+.sidebar{
+grid-area: sidebar;
+background-image: linear-gradient(rgb(255, 255, 255), rgb(182, 181, 181));
+box-shadow: 4px 6px 20px 0px black;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+.footr{
+    grid-area: footr;
+}
+.linkes{
+    display: flex;
+    align-items:flex-end;
+   justify-content:center;
+}
+.headriIcons{
+    display: flex;
+    justify-content: space-between;
+}
+  .headrtitle{
+    font-size: 150%;
+    display: flex;
+    align-self: flex-end;
+    font-family: "Audiowide", sans-serif;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-image: linear-gradient(rgb(255, 255, 255),#fff, rgb(249, 90, 111));
+    border-radius: 5%;
+
+  }
+  .imgheadr{
+    display: flex;
+    
+  }
+  .titlemain{
+    display: flex;
+    flex-direction: column;
+     flex-wrap: nowrap;
+  }
+  .titlemainunder{
+    display: flex;
+    flex-direction: column;
+     flex-wrap: nowrap;
+  }
+  .imgmain{
+    border: #000 3px double;
+    height: 30%;
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .lineside{
+display: flex;  
+}
+.thingside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.answersline{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
