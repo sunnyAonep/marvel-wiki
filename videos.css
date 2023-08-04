@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background:url(imgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
+
+}
+.navbar , navbar-expand-lg{
+    background-image: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));
+}
+.vids{
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    'vids1 vids2 vids3'
+    'vids4 vids5 vids6';
+}
+.vids1{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-area: vids1;
+}
+.vids2{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-area: vids2;
+}
+.vids3{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-area: vids3;
+}
+.vids4{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-area: vids4;
+    
+}
+.vids5{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-area: vids5;
+}
+.vids6{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    grid-area: vids6;
+}
