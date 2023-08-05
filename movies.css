@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background:url(imgs/wallpaperflare.com_wallpaper\ \(2\).jpg);
+
+}
+.navbar , navbar-expand-lg{
+    background-image: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));
+}
+.movieCards{
+    height: 230vh;
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    'movi1 movi1 movi1'
+    'movi2 movi3 movi4'
+    'movi5 movi6 movi7'
+    'movi8 movi9 movi10'
+    'movi11 movi12 movi12'
+    ;
+}
+.movie1{
+    grid-area: movi1;
+    display: flex;
+    justify-self: center;
+    
+}
+.movie2{
+    grid-area: movi2;
+}
+.movie3{    grid-area: movi3;
+}
+.movie4{
+    grid-area: movi4;
+}
+.movie5{    grid-area: movi5;
+}
+.movie6{
+    grid-area: movi6;
+}
+.movie7{
+    grid-area: movi7;
+}
+.movie8{
+    grid-area: movi8;
+}
+.movie9{
+    grid-area: movi9;
+}
+.movie10{
+    grid-area: movi10;
+}
+.movie11{
+    grid-area: movi11;
+}
+.movie12{
+    grid-area: movi12;
+}
+.title_movie1{
+    background-color: aqua;
+}
+.img_movie1{
+    background-color: aquamarine;
+}
+.card-body{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    opacity: 80%;
+    background-color: rgb(243, 116, 116);
+}
