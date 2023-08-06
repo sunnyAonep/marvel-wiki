@@ -40,7 +40,7 @@ footer{
     right: 0;
     background: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));
     height: auto;
-    width: 100vw;
+    width: 99vw;
     color: #fff;
     justify-content: space-evenly;
 }
