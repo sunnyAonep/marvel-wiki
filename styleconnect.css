@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-image: url(imgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    overflow: hidden;
 }
 h1{
     color: brown;
@@ -30,4 +31,35 @@ input[type="submit"] {
   }
   .navbar , navbar-expand-lg{
     background-image: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));}
-    
+    footer{
+      position: absolute;
+      display: flex;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));
+      height: auto;
+      width: 100vw;
+      color: #fff;
+      justify-content: space-evenly;
+  }
+  .footer-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+  .footer-content h3{
+      font-weight: 500;
+      text-transform: capitalize;
+      line-height: 3rem;
+  }
+  .icons_footer{
+  display: flex;
+  justify-content:space-around;
+  }
+  #icon:hover{
+      filter: drop-shadow(1px 1px 1px #f00);
+      transform: scale(150%)
+    }
