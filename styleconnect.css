@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-image: url(imgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
-    overflow: hidden;
+    
 }
 h1{
     color: brown;
@@ -32,14 +32,14 @@ input[type="submit"] {
   .navbar , navbar-expand-lg{
     background-image: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));}
     footer{
-      position: absolute;
+      position: relative;
       display: flex;
       bottom: 0;
       left: 0;
       right: 0;
       background: linear-gradient(rgb(57, 63, 113), rgb(216, 127, 139));
       height: auto;
-      width: 99vw;
+      width: 98.5vw;
       color: #fff;
       justify-content: space-evenly;
   }
